@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Posterolateral" Class="PosterolateralDbDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.;Initial Catalog=Posterolateral;User ID=sa" SettingsObjectName="Hastahane.Properties.Settings" SettingsPropertyName="PosterolateralConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.TblTakip" Member="TblTakips">
+    <Type Name="TblTakip">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="HastaId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Postop3Lkl" Type="System.String" DbType="NVarChar(5)" CanBeNull="true" />
+      <Column Name="Postop3Krtn" Type="System.Decimal" DbType="Decimal(3,2)" CanBeNull="true" />
+      <Column Name="Postop6Lkl" Type="System.String" DbType="NVarChar(5)" CanBeNull="true" />
+      <Column Name="Postop6Krtn" Type="System.Decimal" DbType="Decimal(3,2)" CanBeNull="true" />
+      <Column Name="Postop12Lkl" Type="System.String" DbType="NVarChar(5)" CanBeNull="true" />
+      <Column Name="Postop12Krtn" Type="System.Decimal" DbType="Decimal(3,2)" CanBeNull="true" />
+      <Association Name="TblHasta_TblTakip" Member="TblHasta" ThisKey="HastaId" OtherKey="Id" Type="TblHasta" IsForeignKey="true" DeleteRule="CASCADE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TbkPeropErKomp" Member="TbkPeropErKomps">
+    <Type Name="TbkPeropErKomp">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PeropErkenKomp" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Tbl_PatalojikVeri" Member="Tbl_PatalojikVeris">
+    <Type Name="Tbl_PatalojikVeri">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="HastaId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Patoloji" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="AltGr" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="FurhmanGrade" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="PatolojikEvre" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="CerrahiSinir" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Association Name="TblHasta_Tbl_PatalojikVeri" Member="TblHasta" ThisKey="HastaId" OtherKey="Id" Type="TblHasta" IsForeignKey="true" DeleteRule="CASCADE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblAltGrup" Member="TblAltGrups">
+    <Type Name="TblAltGrup">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="AltGrup" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblDemograf" Member="TblDemografs">
+    <Type Name="TblDemograf">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="HastaId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Boy" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Yas" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Kilo" Type="System.Decimal" DbType="Decimal(3,1)" CanBeNull="true" />
+      <Column Name="BMI" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ASA" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Dr" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Cins" Type="System.String" DbType="NVarChar(5)" CanBeNull="true" />
+      <Column Name="Taraf" Type="System.String" DbType="NVarChar(5)" CanBeNull="true" />
+      <Column Name="Lklzsyn" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Boyut" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Komorbid" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="TblHasta_TblDemograf" Member="TblHasta" ThisKey="HastaId" OtherKey="Id" Type="TblHasta" IsForeignKey="true" DeleteRule="CASCADE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblDoktor" Member="TblDoktors">
+    <Type Name="TblDoktor">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DoktorAdi" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="DoktorSoyad" Type="System.String" DbType="NChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblFuhrmanGrade" Member="TblFuhrmanGrades">
+    <Type Name="TblFuhrmanGrade">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FuhrmanGrade" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblHasta" Member="TblHastas">
+    <Type Name="TblHasta">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Ad" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Soyad" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Prot" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Opttar" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Opttur" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Takip" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Anah" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TblHasta_TblTakip" Member="TblTakips" ThisKey="Id" OtherKey="HastaId" Type="TblTakip" />
+      <Association Name="TblHasta_Tbl_PatalojikVeri" Member="Tbl_PatalojikVeris" ThisKey="Id" OtherKey="HastaId" Type="Tbl_PatalojikVeri" />
+      <Association Name="TblHasta_TblDemograf" Member="TblDemografs" ThisKey="Id" OtherKey="HastaId" Type="TblDemograf" />
+      <Association Name="TblHasta_TblOperaf" Member="TblOperafs" ThisKey="Id" OtherKey="HastaId" Type="TblOperaf" />
+      <Association Name="TblHasta_TblPosOperaf" Member="TblPosOperafs" ThisKey="Id" OtherKey="HastaId" Type="TblPosOperaf" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblKomorbidite" Member="TblKomorbidites">
+    <Type Name="TblKomorbidite">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="KomorbiditeAdı" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblKompClavien" Member="TblKompClaviens">
+    <Type Name="TblKompClavien">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="KompClavien" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblLokalizasyon" Member="tblLokalizasyons">
+    <Type Name="tblLokalizasyon">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Lokalizayson" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblOperaf" Member="TblOperafs">
+    <Type Name="TblOperaf">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="HastaId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PksAc" Type="System.String" DbType="NVarChar(5)" CanBeNull="true" />
+      <Column Name="SIK" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="Coop" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Iskemi" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Portsay" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Yrdmynt" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Sure" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Dren" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Kanama" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Piyes" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TblHasta_TblOperaf" Member="TblHasta" ThisKey="HastaId" OtherKey="Id" Type="TblHasta" IsForeignKey="true" DeleteRule="CASCADE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblOpTuru" Member="TblOpTurus">
+    <Type Name="TblOpTuru">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="OpTuru" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblPatEvre" Member="TblPatEvres">
+    <Type Name="TblPatEvre">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PatEvre" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblPatoloji" Member="TblPatolojis">
+    <Type Name="TblPatoloji">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Patoloji" Type="System.String" DbType="NChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TblPosOperaf" Member="TblPosOperafs">
+    <Type Name="TblPosOperaf">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PeropErkenKomp" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="PostopAn" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Sonda" Type="System.String" DbType="NVarChar(8)" CanBeNull="true" />
+      <Column Name="HospSur" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="preopKeratin" Type="System.Decimal" DbType="Decimal(3,2)" CanBeNull="true" />
+      <Column Name="PostopKreatin" Type="System.Decimal" DbType="Decimal(3,2)" CanBeNull="true" />
+      <Column Name="PreopHtc" Type="System.Decimal" DbType="Decimal(4,2)" CanBeNull="true" />
+      <Column Name="PostopHct" Type="System.Decimal" DbType="Decimal(4,2)" CanBeNull="true" />
+      <Column Name="PreobHb" Type="System.Decimal" DbType="Decimal(4,2)" CanBeNull="true" />
+      <Column Name="PostopHb" Type="System.Decimal" DbType="Decimal(4,2)" CanBeNull="true" />
+      <Column Name="Takip" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Tel" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="PostopGecKomp" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="KompClavien" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="HastaId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TblHasta_TblPosOperaf" Member="TblHasta" ThisKey="HastaId" OtherKey="Id" Type="TblHasta" IsForeignKey="true" DeleteRule="CASCADE" />
+    </Type>
+  </Table>
+</Database>

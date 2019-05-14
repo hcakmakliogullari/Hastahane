@@ -1,0 +1,66 @@
+C:\Users\section2\source\repos\Hastahane\Hastahane\bin\Debug\Hastahane.exe.config
+C:\Users\section2\source\repos\Hastahane\Hastahane\bin\Debug\Hastahane.exe
+C:\Users\section2\source\repos\Hastahane\Hastahane\bin\Debug\Hastahane.pdb
+C:\Users\section2\source\repos\Hastahane\Hastahane\obj\Debug\Hastahane.csprojAssemblyReference.cache
+C:\Users\section2\source\repos\Hastahane\Hastahane\obj\Debug\Hastahane.Properties.Resources.resources
+C:\Users\section2\source\repos\Hastahane\Hastahane\obj\Debug\Hastahane.csproj.GenerateResource.cache
+C:\Users\section2\source\repos\Hastahane\Hastahane\obj\Debug\Hastahane.csproj.CoreCompileInputs.cache
+C:\Users\section2\source\repos\Hastahane\Hastahane\obj\Debug\Hastahane.exe
+C:\Users\section2\source\repos\Hastahane\Hastahane\obj\Debug\Hastahane.pdb
+C:\Users\section2\source\repos\Hastahane\Hastahane\obj\Debug\Hastahane.frmAnasayfa.resources
+C:\Users\section2\source\repos\Hastahane\Hastahane\obj\Debug\Hastahane.HastaGiris.frmHastaGiris.resources
+C:\Users\hcakm\Desktop\Yeni klasör (5)\Hastahane\Hastahane\bin\Debug\Hastahane.exe.config
+C:\Users\hcakm\Desktop\Yeni klasör (5)\Hastahane\Hastahane\bin\Debug\Hastahane.exe
+C:\Users\hcakm\Desktop\Yeni klasör (5)\Hastahane\Hastahane\bin\Debug\Hastahane.pdb
+C:\Users\hcakm\Desktop\Yeni klasör (5)\Hastahane\Hastahane\obj\Debug\Hastahane.csprojResolveAssemblyReference.cache
+C:\Users\hcakm\Desktop\Yeni klasör (5)\Hastahane\Hastahane\obj\Debug\Hastahane.frmAnasayfa.resources
+C:\Users\hcakm\Desktop\Yeni klasör (5)\Hastahane\Hastahane\obj\Debug\Hastahane.HastaGiris.frmHastaGiris.resources
+C:\Users\hcakm\Desktop\Yeni klasör (5)\Hastahane\Hastahane\obj\Debug\Hastahane.Properties.Resources.resources
+C:\Users\hcakm\Desktop\Yeni klasör (5)\Hastahane\Hastahane\obj\Debug\Hastahane.csproj.GenerateResource.cache
+C:\Users\hcakm\Desktop\Yeni klasör (5)\Hastahane\Hastahane\obj\Debug\Hastahane.csproj.CoreCompileInputs.cache
+C:\Users\hcakm\Desktop\Yeni klasör (5)\Hastahane\Hastahane\obj\Debug\Hastahane.exe
+C:\Users\hcakm\Desktop\Yeni klasör (5)\Hastahane\Hastahane\obj\Debug\Hastahane.pdb
+C:\Users\section2\Desktop\Yeni klasör\Hastahane\Hastahane\bin\Debug\Hastahane.exe.config
+C:\Users\section2\Desktop\Yeni klasör\Hastahane\Hastahane\bin\Debug\Hastahane.exe
+C:\Users\section2\Desktop\Yeni klasör\Hastahane\Hastahane\bin\Debug\Hastahane.pdb
+C:\Users\section2\Desktop\Yeni klasör\Hastahane\Hastahane\obj\Debug\Hastahane.csprojAssemblyReference.cache
+C:\Users\section2\Desktop\Yeni klasör\Hastahane\Hastahane\obj\Debug\Hastahane.Bilgi.frmDoktorGiris.resources
+C:\Users\section2\Desktop\Yeni klasör\Hastahane\Hastahane\obj\Debug\Hastahane.frmAnasayfa.resources
+C:\Users\section2\Desktop\Yeni klasör\Hastahane\Hastahane\obj\Debug\Hastahane.HastaGiris.frmHastaGiris.resources
+C:\Users\section2\Desktop\Yeni klasör\Hastahane\Hastahane\obj\Debug\Hastahane.Properties.Resources.resources
+C:\Users\section2\Desktop\Yeni klasör\Hastahane\Hastahane\obj\Debug\Hastahane.csproj.GenerateResource.cache
+C:\Users\section2\Desktop\Yeni klasör\Hastahane\Hastahane\obj\Debug\Hastahane.csproj.CoreCompileInputs.cache
+C:\Users\section2\Desktop\Yeni klasör\Hastahane\Hastahane\obj\Debug\Hastahane.exe
+C:\Users\section2\Desktop\Yeni klasör\Hastahane\Hastahane\obj\Debug\Hastahane.pdb
+C:\Users\section2\Desktop\Yeni klasör\Hastahane\Hastahane\obj\Debug\Hastahane.Bilgi.OpTuruGiris.resources
+C:\Users\hcakm\Desktop\Yeni klasör (5)\Hastahane\Hastahane\obj\Debug\Hastahane.Bilgi.frmDoktorGiris.resources
+C:\Users\hcakm\Desktop\Yeni klasör (5)\Hastahane\Hastahane\obj\Debug\Hastahane.Bilgi.OpTuruGiris.resources
+C:\Users\hcakm\Desktop\Yeni klasör (5)\Hastahane\Hastahane\obj\Debug\Hastahane.Bilgi.frmKomorbidite.resources
+C:\Users\hcakm\Desktop\Yeni klasör (5)\Hastahane\Hastahane\obj\Debug\Hastahane.Bilgi.frmLokalizasyon.resources
+C:\Users\hcakm\Desktop\Yeni klasör (5)\Hastahane\Hastahane\obj\Debug\Hastahane.Bilgi.frmPatoloji.resources
+C:\Users\hcakm\Desktop\Yeni klasör (5)\Hastahane\Hastahane\obj\Debug\Hastahane.Bilgi.frmAltGrup.resources
+C:\Users\section2\Desktop\Yeni klasör\Hastahane\Hastahane\obj\Debug\Hastahane.Bilgi.frmAltGrup.resources
+C:\Users\section2\Desktop\Yeni klasör\Hastahane\Hastahane\obj\Debug\Hastahane.Bilgi.frmKomorbidite.resources
+C:\Users\section2\Desktop\Yeni klasör\Hastahane\Hastahane\obj\Debug\Hastahane.Bilgi.frmLokalizasyon.resources
+C:\Users\section2\Desktop\Yeni klasör\Hastahane\Hastahane\obj\Debug\Hastahane.Bilgi.frmPatoloji.resources
+C:\Users\section2\Desktop\Yeni klasör\Hastahane\Hastahane\obj\Debug\Hastahane.Bilgi.frmHastaListesi.resources
+C:\Users\section2\Desktop\Yeni klasör\Hastahane\Hastahane\obj\Debug\Hastahane.Liste.frmOzelListe.resources
+C:\Users\section2\Desktop\Hastahane\Hastahane\obj\Debug\Hastahane.csprojAssemblyReference.cache
+C:\Users\section2\Desktop\Hastahane\Hastahane\obj\Debug\Hastahane.Bilgi.frmAltGrup.resources
+C:\Users\section2\Desktop\Hastahane\Hastahane\obj\Debug\Hastahane.Bilgi.frmDoktorGiris.resources
+C:\Users\section2\Desktop\Hastahane\Hastahane\obj\Debug\Hastahane.Bilgi.frmHastaListesi.resources
+C:\Users\section2\Desktop\Hastahane\Hastahane\obj\Debug\Hastahane.Bilgi.frmKomorbidite.resources
+C:\Users\section2\Desktop\Hastahane\Hastahane\obj\Debug\Hastahane.Bilgi.frmLokalizasyon.resources
+C:\Users\section2\Desktop\Hastahane\Hastahane\obj\Debug\Hastahane.Bilgi.frmPatoloji.resources
+C:\Users\section2\Desktop\Hastahane\Hastahane\obj\Debug\Hastahane.Bilgi.OpTuruGiris.resources
+C:\Users\section2\Desktop\Hastahane\Hastahane\obj\Debug\Hastahane.frmAnasayfa.resources
+C:\Users\section2\Desktop\Hastahane\Hastahane\obj\Debug\Hastahane.HastaGiris.frmHastaGiris.resources
+C:\Users\section2\Desktop\Hastahane\Hastahane\obj\Debug\Hastahane.Liste.frmOzelListe.resources
+C:\Users\section2\Desktop\Hastahane\Hastahane\obj\Debug\Hastahane.Properties.Resources.resources
+C:\Users\section2\Desktop\Hastahane\Hastahane\obj\Debug\Hastahane.csproj.GenerateResource.cache
+C:\Users\section2\Desktop\Hastahane\Hastahane\obj\Debug\Hastahane.csproj.CoreCompileInputs.cache
+C:\Users\section2\Desktop\Hastahane\Hastahane\obj\Debug\Hastahane.exe
+C:\Users\section2\Desktop\Hastahane\Hastahane\obj\Debug\Hastahane.pdb
+C:\Users\section2\Desktop\Hastahane\Hastahane\bin\Debug\Hastahane.exe.config
+C:\Users\section2\Desktop\Hastahane\Hastahane\bin\Debug\Hastahane.exe
+C:\Users\section2\Desktop\Hastahane\Hastahane\bin\Debug\Hastahane.pdb
